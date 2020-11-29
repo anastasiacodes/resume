@@ -1,0 +1,298 @@
+# Page settings
+
+baseURL = ""
+languageCode = "en"
+title = "Anastasia Powell's Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = ""
+
+
+[context.production.environment]
+  HUGO_VERSION = "0.79.0"
+
+
+
+[params]
+    author = "Anastasia Powell"
+    description = "Anastasia Powell's Resume"
+
+
+    primaryColor = "#390693"
+    textPrimaryColor = "#4f4f4f"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Anastasia Powell"
+        tagline = "Web Developer, Writer, and Educator"
+        avatar = "anna-avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Ansted, WV"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:"
+        text = "304-667-0492"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "anastasiapcodes@gmail.com"
+    #    [[params.contact.list]]
+    #    icon = "fas fa-globe"
+    #    url = "#"
+    #    text = "www.yourwebsite.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "HTML5"
+        [[params.skills.list.items]]
+        details = "SCSS"
+        [[params.skills.list.items]]
+        details = "JavaScript"
+        [[params.skills.list.items]]
+        details = "Git"
+        [[params.skills.list.items]]
+        details = "Hugo"
+        [[params.skills.list.items]]
+        details = "Wordpress"
+
+        [[params.skills.list]]
+        title = "Soft"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+         [[params.skills.list.items]]
+        details = "Highly Collaborative"
+         [[params.skills.list.items]]
+        details = "Detail-Oriented"
+                         
+
+        # [[params.skills.list]]
+        # title = "Professional"
+        # [[params.skills.list.items]]
+        # details = "Effective communication"
+        # [[params.skills.list.items]]
+        # details = "Leadership"
+        # [[params.skills.list.items]]
+        # details = "Strong problem solver"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BS Information Technology"
+        university = "Liberty University"
+        dates = "2018 - 2019"
+
+
+         [[params.education.list]]
+        degree = "BA English Education"
+        university = "Marshall University"
+        dates = "2011 - 2015"
+
+
+
+
+
+
+
+
+    [params.aPowells]
+        enable = false
+
+        [[params.aPowells.list]]
+        name = "APowell Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.aPowells.list]]
+        name = "APowell Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Technology"        
+        [[params.interests.list]]
+        name = "UX Design"
+        [[params.interests.list]]
+        name = "Writing"
+        [[params.interests.list]]
+        name = "Reading"
+        [[params.interests.list]]
+        name = "Hiking"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I am a web developer with a distinctive background in English education. Framing the foundation of my career as an English educator, I honed a consistent writing style for an array of mediums, refined  an analytical thought process, and ingrained a deep desire to share my learnings with others. Furthering my education, I broadened my experience to include technological involvement and began my career as a front-end web developer at a marketing agency. This role provided me with an overarching view of the entire life cycle of a web project, sharpened my proficiency in HTML, CSS/SCSS, JavaScript/jQuery and PHP, and enhanced skills in attention to detail, collaboration, and documentation. I am constantly seeking further opportunities to expand my knowledge base and continue to grow."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Web Developer"
+        dates = "May 2019 - Current"
+        company = "Digital Relativity"
+        details = "Serving as a Wordpress developer for multiple clients possessing high traffic sites including West Virginia Tourism, Gomart, and Rocky Mountain Rafts. This position primarily focuses on front end development."
+        [[params.experience.list.items]]
+        details = "Implemented web design and development principles to build user-friendly responsive websites"
+        [[params.experience.list.items]]
+        details = "Aided implementation of content request technology and placement efforts for large and small scale projects"
+        [[params.experience.list.items]]
+        details = "Monitored website performance and rectified front-end related issues"
+        [[params.experience.list.items]]
+        details = "Collaborated with the dev team to build custom post-types"
+        [[params.experience.list.items]]
+        details = "Developed a static user interface for a progressive web app"
+
+        [[params.experience.list]]
+        title = "Web Developer Apprentice"
+        dates = "Febuary 2019 - May 2019"
+        company = "Digital Relativity"
+        details = "Served as a web developer apprentice to learn technologies specific to Digital Relativity. This position primarily focused on front-end education and experiences."
+        [[params.experience.list.items]]
+        details = "Engaged in 100+ hours in Treehouse and Udemy course material including PHP, Javascript, CSS optimization, and HTML courses"
+        [[params.experience.list.items]]
+        details = "Implemented and manipulated themes in Wordpress and Squarespace platforms"
+        [[params.experience.list.items]]
+        details = "Collaborated closely with the team to support projects during all phases of the web project life cycle"
+        [[params.experience.list.items]]
+        details = "Ensured cross-browser, cross-platform, and multiple device type compatibility necessary in QA process"
+        [[params.experience.list.items]]
+        details = "Implemented a mobile-first approach to existing websites"
+
+        [[params.experience.list]]
+        title = "English Teacher"
+        dates = "September 2015 - September 2019"
+        company = "Monroe County BOE, Greenbrier Academy for Girls"
+        details = "Developed engaging lesson plans. This position strengthened  my ability to provide feedback on student writing, conduct myself professionally, and develop documentation for course policy."
+        [[params.experience.list.items]]
+        details = "Planned, conducted, and adjusted daily lessons "
+        [[params.experience.list.items]]
+        details = "Collaborated with other professionals in coordinating plans"
+        [[params.experience.list.items]]
+        details = "Further developed a value of procedural, structural, and organizational policies"
+        [[params.experience.list.items]]
+        details = "Assisted students with grammatical, structural, and formatting errors"
+        [[params.experience.list.items]]
+        details = "Improved skills in appealing to diverse learners"
+
+        [[params.experience.list]]
+        title = "Writing Tutor"
+        dates = "September 2013 - September 2014"
+        company = "Marshall University"
+        details = "Served as a writing tutor for the university assisting a variety of undergraduate and graduate students with guidance of syntactic structure, grammatical errors, narrative composition, and organization techniques."
+        [[params.experience.list.items]]
+        details = "Interacted and provided personal feedback for a variety of writers"
+        [[params.experience.list.items]]
+        details = "Collaborated with students to develop essay outlines"
+        [[params.experience.list.items]]
+        details = "Assisted ESL learners in the English writing process"
+        [[params.experience.list.items]]
+        details = "Assisted students with grammatical, structural, and formatting errors"
+        [[params.experience.list.items]]
+        details = "Maintained secretarial duties"
+
+       
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//www.linkedin.com/in/anastasiacodes/"
+        title = "Find me on LinkedIn!"
+        # [[params.social.list]]
+        # icon = "fab fa-twitter-square"
+        # url = "//twitter.com/username"
+        # title = "@username"
+
+
+
+
+
