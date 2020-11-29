@@ -198,7 +198,7 @@ googleAnalytics = ""
         title = "Web Developer"
         dates = "May 2019 - Current"
         company = "Digital Relativity"
-        details = "Serving as a Wordpress developer for multiple clients possessing high traffic sites including West Virginia Tourism, Gomart, and Rocky Mountain Rafts. This position primarily focuses on front end development."
+        details = "Serving as a Wordpress developer for multiple clients possessing high traffic sites including [West Virginia Tourism](https://wvtourism.com/), [Gomart](https://gomart.com/), and [Rocky Mountain Rafts](https://rockymountainrafts.com/). This position primarily focuses on front end development."
         [[params.experience.list.items]]
         details = "Implemented web design and development principles to build user-friendly responsive websites"
         [[params.experience.list.items]]
