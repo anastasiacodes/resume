@@ -246,7 +246,7 @@ googleAnalytics = ""
         title = "Writing Tutor"
         dates = "September 2013 - September 2014"
         company = "Marshall University"
-        details = "Served as a writing tutor for the university assisting a variety of undergraduate and graduate students with guidance of syntactic structure, grammatical errors, narrative composition, and organization techniques."
+        details = "Served as a writing tutor for the university assisting a variety of undergraduate and graduate students with guidance on syntax, structure, grammar, narrative composition, and organization techniques."
         [[params.experience.list.items]]
         details = "Interacted and provided personal feedback for a variety of writers"
         [[params.experience.list.items]]
