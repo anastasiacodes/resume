@@ -79,7 +79,7 @@ googleAnalytics = ""
         [[params.skills.list]]
         title = "Soft"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Effective Communication"
          [[params.skills.list.items]]
         details = "Highly Collaborative"
          [[params.skills.list.items]]
