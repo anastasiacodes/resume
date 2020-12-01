@@ -212,7 +212,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "Web Developer Apprentice"
-        dates = "Febuary 2020 - May 2020"
+        dates = "February 2020 - May 2020"
         company = "Digital Relativity"
         details = "Served as a web developer apprentice to learn technologies specific to Digital Relativity. This position primarily focused on front-end education and experiences."
         [[params.experience.list.items]]
