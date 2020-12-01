@@ -196,7 +196,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "Web Developer"
-        dates = "May 2019 - Current"
+        dates = "May 2020 - Current"
         company = "Digital Relativity"
         details = "Serving as a Wordpress developer for multiple clients possessing high traffic sites including [West Virginia Tourism](https://wvtourism.com/), [Gomart](https://gomart.com/), and [Rocky Mountain Rafts](https://rockymountainrafts.com/). This position primarily focuses on front end development."
         [[params.experience.list.items]]
@@ -212,7 +212,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "Web Developer Apprentice"
-        dates = "Febuary 2019 - May 2019"
+        dates = "Febuary 2020 - May 2020"
         company = "Digital Relativity"
         details = "Served as a web developer apprentice to learn technologies specific to Digital Relativity. This position primarily focused on front-end education and experiences."
         [[params.experience.list.items]]
@@ -228,7 +228,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "English Teacher"
-        dates = "September 2015 - September 2019"
+        dates = "September 2015 - February 2020"
         company = "Monroe County BOE, Greenbrier Academy for Girls"
         details = "Served as an English teacher to education high school students in a self-prepared reading and writing curriculum. This position primarily focused on educating various student literacies."
         [[params.experience.list.items]]
