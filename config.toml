@@ -228,7 +228,7 @@ googleAnalytics = ""
 
         [[params.experience.list]]
         title = "English Teacher"
-        dates = "September 2015 - February 2020"
+        dates = "August 2015 - February 2020"
         company = "Monroe County BOE, Greenbrier Academy for Girls"
         details = "Served as an English teacher to education high school students in a self-prepared reading and writing curriculum. This position primarily focused on educating various student literacies."
         [[params.experience.list.items]]
