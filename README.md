@@ -99,9 +99,13 @@ Provide Netlify with authorization to access your version control system account
 
 ## Create a new site with continuous deployment
 
-select `New site from Git` button
+With a Netlify account that has access to your version control system, you can now synch up your project's repository for continuous development.
 
-Follow Netlify prompts to finish the repo connection.
+Select `New site from Git` button
+
+![Netlify new site](static/assets/images/neflify-newsite.png)
+
+Follow Netlify prompts and provide Netlify permission to access individual repositories.
 
 Select the project repo. Select the branch, build command and deploy directory.
 
