@@ -2,7 +2,7 @@
 
 ## About this project
 
-This project showcases my resume. It was created using a static site generator [Hugo](https://gohugo.io/about) and hosted on [Netlify](https://www.netlify.com/). Continuous Integration was setup as indicated with below [Netlify badge](https://docs.netlify.com/monitor-sites/status-badges/).
+This project showcases my resume. It was created using a static site generator [Hugo](https://gohugo.io/about) and hosted on [Netlify](https://www.netlify.com/). Continuous integration was setup as indicated with below [Netlify badge](https://docs.netlify.com/monitor-sites/status-badges/).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/636d486d-dea1-494b-aba0-8500896d1d6f/deploy-status)](https://app.netlify.com/sites/anastasiacodes/deploys)
 
@@ -81,7 +81,7 @@ As directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devr
 
 Change the `config.toml` input to match your resume input.
 
-![config.toml](static/assets/images/toml-changes.png)
+![config.toml](static/assets/images/config.toml.png)
 
 
 ## Host Hugo site on Netlify
