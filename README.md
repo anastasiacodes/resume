@@ -1,10 +1,8 @@
 # Anastasia Powell's Resume
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/636d486d-dea1-494b-aba0-8500896d1d6f/deploy-status)](https://app.netlify.com/sites/anastasiacodes/deploys)
 ## About this project
 
-This project showcases my resume. It was created using a static site generator [Hugo](https://gohugo.io/about) and hosted on [Netlify](https://www.netlify.com/). Continuous integration was setup as indicated with below [Netlify badge](https://docs.netlify.com/monitor-sites/status-badges/).
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/636d486d-dea1-494b-aba0-8500896d1d6f/deploy-status)](https://app.netlify.com/sites/anastasiacodes/deploys)
+This project showcases my resume. It was created using a static site generator [Hugo](https://gohugo.io/about) and hosted / continuously deployed on [Netlify](https://www.netlify.com/).
 
 ### Hugo advantages
 
@@ -53,7 +51,7 @@ If successful, Hugo creates a [directory structure](https://gohugo.io/getting-st
 
 ## Add a theme
 
-If you do not want to build your own theme, you can access one of [Hugo's free themes](https://themes.gohugo.io/). I choose [DevResume](https://themes.gohugo.io/hugo-devresume-theme/) as my theme.
+If you do not want to build your own theme, you can access one of [Hugo's free themes](https://themes.gohugo.io/). I chose [DevResume](https://themes.gohugo.io/hugo-devresume-theme/) as my theme.
 
 Clone the repo of the theme into your theme folder.
 
@@ -89,23 +87,23 @@ Open `localhost:1313` in a browser to view your updated website.
 
 ![localhost](static/assets/images/updatedlocalhost.png)
 
-You have successfully created a static website and are now ready to set up hosting. There are many options for hosting services, as indicated in [Hugo documentation](https://gohugo.io/hosting-and-deployment/), but for this project, I choose to host on Netlify.
+You have successfully created a static website and are now ready to set up hosting. There are many options for hosting services, as indicated in the [Hugo documentation](https://gohugo.io/hosting-and-deployment/), but for this project, I chose to host on Netlify.
 
 ## Host Hugo site on Netlify
 
-Before utilizing Netlify's services, you must create an account on [Netlify](https://app.netlify.com/signup). I signed up for a free version via GitHub.
+Before utilizing Netlify's services, you must create an account on [Netlify](https://app.netlify.com/signup).
 
 ![Netlify signup](static/assets/images/netlify-signup.png)
 
-Setup is extremely straightforward and you can deploy your site in minutes.
+Setup is extremely straightforward and you can deploy your site within minutes.
 
 ## Create a new site with continuous deployment
 
-Begin by providing Netlify with authorization to access your version control system account.
+Begin by providing Netlify with authorization to access your GitHub.
 
 ![Netlify permissions](static/assets/images/netlify-permissions.png)
 
-You can now synch your project's repository for continuous development.
+You can now sync your project's repository for continuous development.
 
 Select `New site from Git` button.
 
@@ -119,10 +117,8 @@ Before building your site, Netlify needs 3 sets of instructions:
 2. Build command: `hugo`
 3. Publish directory `public`
 
-Select `deploy site` button to build your site on Netlify.
+Select `Deploy Site` button to build your site on Netlify.
 
-After the terminal view of the build, you should receive a success message providing you will the URL to your website.
-
-You are now hosting a static site on Netlify.
+You should receive a success message providing you with the URL to your website.
 
 ![Netlify success](static/assets/images/netlify-success.png)
