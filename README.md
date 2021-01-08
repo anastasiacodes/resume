@@ -85,7 +85,7 @@ Change the `config.toml` input to match your resume input.
 
 Open `localhost:1313` in a browser to view your updated website.
 
-![localhost](static/assets/images/localhost%20running%20site.png)
+![localhost](static/assets/images/updatedlocalhost.png)
 
 ## Host Hugo site on Netlify
 
