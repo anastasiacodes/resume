@@ -91,7 +91,7 @@ Open `localhost:1313` in a browser to view your updated website.
 
 Create an account on [Netlify](https://app.netlify.com/signup). I signed up via GitHub. 
 
-![Netlify signup](ntstatic/assets/images/netlify-signup.png)
+![Netlify signup](static/assets/images/netlify-signup.png)
 
 Provide Netlify with authorization to access your version control system account.
 
