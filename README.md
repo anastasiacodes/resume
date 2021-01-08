@@ -89,7 +89,7 @@ Open `localhost:1313` in a browser to view your updated website.
 
 ![localhost](static/assets/images/updatedlocalhost.png)
 
-Congratulations, you have successfully created a static website and are now ready to set up hosting. There are many options for hosting services, as indicated in [Hugo documentation](https://gohugo.io/hosting-and-deployment/), but for this project, I choose to host on Netlify.
+You have successfully created a static website and are now ready to set up hosting. There are many options for hosting services, as indicated in [Hugo documentation](https://gohugo.io/hosting-and-deployment/), but for this project, I choose to host on Netlify.
 
 ## Host Hugo site on Netlify
 
@@ -123,6 +123,6 @@ Select `deploy site` button to build your site on Netlify.
 
 After the terminal view of the build, you should receive a success message providing you will the URL to your website.
 
-Congratulations, you are now hosting a static site on Netlify.
+You are now hosting a static site on Netlify.
 
 ![Netlify success](static/assets/images/netlify-success.png)
