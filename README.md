@@ -30,7 +30,7 @@ brew install hugo
 
 ## Create a new Hugo site
 
-In your terminal , be sure you are in the appropriate folder. From there, use the following command `hugo new site` followed by the title of your site.
+Within the root of your Hugo project, use the following command `hugo new site` followed by the title of your site.
 
 ```zsh
 hugo new site resume
@@ -40,14 +40,38 @@ If successful, Hugo creates a [directory structure](https://gohugo.io/getting-st
 
 ## Add a theme
 
-If you do not want to build your own theme, you can access one of [Hugo's free themes](https://themes.gohugo.io/). I choose [DevResume](https://themes.gohugo.io/hugo-devresume-theme/) as my theme. 
+If you do not want to build your own theme, you can access one of [Hugo's free themes](https://themes.gohugo.io/). I choose [DevResume](https://themes.gohugo.io/hugo-devresume-theme/) as my theme.
 
-Clone the repo of the theme you desire into your theme folder.
+Clone the repo of the theme into your theme folder.
 
 ```zsh
 git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git 
 ```
 
-## Host on Netlify
+Open `config.toml` file and add your theme:
 
-## Continuous builds on Netlify
+```zsh
+theme = "hugo-devresume-theme"
+```
+
+Run the Hugo server to check to make sure your theme is installed on your site.
+
+```zsh
+hugo server
+```
+
+Open localhost:1313 in a browser.
+
+## Create content
+
+As directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/README.md), copy the `config.toml` to the root of your site. Change the toml input to match your resume input.
+
+<!-- ![config.toml](assets/resume/static/assets/images/toml-changes.png) -->
+
+<!-- All content is going to be stored in the content folder. I only created one file in this folder: `resume.md`. 
+
+```zsh
+hugo new resume.md
+```
+
+When this file is created, Hugo auto populates file with front-matter. -->

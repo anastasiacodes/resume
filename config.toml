@@ -21,18 +21,11 @@ googleAnalytics = ""
     textPrimaryColor = "#4f4f4f"
 
 
-
-
     [params.profile]
         enable = true
         name = "Anastasia Powell"
         tagline = "Web Developer and Educator"
         avatar = "anna-avatar.jpg"
-
-
-
-
-
 
 
     [params.contact]
@@ -51,11 +44,6 @@ googleAnalytics = ""
     #    icon = "fas fa-globe"
     #    url = "#"
     #    text = "www.yourwebsite.com"
-
-
-
-
-
 
 
     [params.skills]
@@ -96,12 +84,6 @@ googleAnalytics = ""
         # details = "Strong problem solver"
 
 
-
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -117,46 +99,28 @@ googleAnalytics = ""
         dates = "2011 - 2015"
 
 
+    # [params.aPowells]
+    #     enable = false
+
+    #     [[params.aPowells.list]]
+    #     name = "APowell Lorem Ipsum"
+    #     body = "Microsoft lorem ipsum"
+    #     date = "2019"
+    #     [[params.aPowells.list]]
+    #     name = "APowell Donec Sodales"
+    #     body = "Oracle Aenean"
+    #     date = "2017"
 
 
+    # [params.languages]
+    #     enable = false
 
-
-
-
-    [params.aPowells]
-        enable = false
-
-        [[params.aPowells.list]]
-        name = "APowell Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
-        [[params.aPowells.list]]
-        name = "APowell Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
-
-
-
-
-
-
-
-    [params.languages]
-        enable = false
-
-        [[params.languages.list]]
-        name = "English"
-        level = "Native"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
-
-
-
-
-
-
+    #     [[params.languages.list]]
+    #     name = "English"
+    #     level = "Native"
+    #     [[params.languages.list]]
+    #     name = "Spanish"
+    #     level = "Professional"
 
 
     [params.interests]
@@ -174,22 +138,9 @@ googleAnalytics = ""
         name = "Hiking"
 
 
-
-
-
-
-
-
     [params.summary]
         enable = true
         text = "I am a web developer with a distinctive background in English education. Combining my English background and interpersonal skills, I led 300+ students through daily lesson plans. Broadening my skill sets, I obtained a BS in Information Technology with a focus on Web and Mobile Programming. Upon graduation, I began my career as a front-end web developer at a marketing agency. This role provided me with an overarching view of the entire life cycle of a web application, an introduction to Ad Ops analytics, and sharpened my proficiency in HTML, CSS/SCSS, JavaScript/jQuery and PHP. I'm always seeking to expand my skill set and continue to grow as a professional."
-
-
-
-
-
-
-
 
     [params.experience]
         enable = true
@@ -260,25 +211,19 @@ googleAnalytics = ""
 
        
 
-    [params.information]
-        enable = false
+    # [params.information]
+    #     enable = false
 
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
+    #     [[params.information.list]]
+    #     title = "Papers"
+    #     [[params.information.list.items]]
+    #     details = "2018 · Lorem Ipsum"
+    #     [[params.information.list.items]]
+    #     details = "2016 · Sed Fringilla"
 
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
+    #     [[params.information.list]]
+    #     title = "Interests"
+    #     details = "Climbing, Snowboarding, Photography, Travelling"
 
 
     [params.social]
