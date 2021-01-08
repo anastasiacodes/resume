@@ -73,16 +73,19 @@ Run the Hugo server to check to make sure your theme is installed on your site.
 hugo server
 ```
 
-Open localhost:1313 in a browser.
+Open `localhost:1313` in a browser and view your website.
 
 ## Create content
 
-As directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/README.md), copy the `config.toml` to the root of your site. 
+As directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/README.md), copy the `config.toml` to the root of your site.
 
 Change the `config.toml` input to match your resume input.
 
 ![config.toml](static/assets/images/config.toml.png)
 
+Open `localhost:1313` in a browser to view your updated website.
+
+![localhost](static/assets/images/localhost%20running%20site.png)
 
 ## Host Hugo site on Netlify
 
