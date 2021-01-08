@@ -66,12 +66,3 @@ Open localhost:1313 in a browser.
 
 As directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/README.md), copy the `config.toml` to the root of your site. Change the toml input to match your resume input.
 
-<!-- ![config.toml](assets/resume/static/assets/images/toml-changes.png) -->
-
-<!-- All content is going to be stored in the content folder. I only created one file in this folder: `resume.md`. 
-
-```zsh
-hugo new resume.md
-```
-
-When this file is created, Hugo auto populates file with front-matter. -->
