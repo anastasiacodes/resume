@@ -27,7 +27,7 @@ This project showcases my resume. It was created using a static site generator [
   * [SOC-2 certified](https://www.imperva.com/learn/data-security/soc-2-compliance)
   * [Jamstack](https://jamstack.org/) architecture abstracts microservice APIs
 * continuous deployment
-  * run build commands and deploy results to CDN when pushed to GitHub, GitLab, or Bitbucket repository
+  * run build commands and deploy results to CDN when pushed to centralized repository on GitHub, GitLab, or Bitbucket
   * visual representation of site's status displayed in README via status badges
 * custom domains & DNS
   * private domain name registration automatically configured to use Netlify DNS
@@ -77,7 +77,9 @@ Open `localhost:1313` in a browser and view your website.
 
 ## Create content
 
-As directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/README.md), copy the `config.toml` to the root of your site.
+This project is a-typical to most Hugo websites as content is typically created in the content folder.  
+
+However, as directed in the theme [README](https://github.com/cowboysmall-tools/hugo-devresume-theme/blob/master/README.md), you will simply copy the `config.toml` to the root of your site.
 
 Change the `config.toml` input to match your resume input.
 
@@ -87,35 +89,40 @@ Open `localhost:1313` in a browser to view your updated website.
 
 ![localhost](static/assets/images/updatedlocalhost.png)
 
+Congratulations, you have successfully created a static website and are now ready to set up hosting. There are many options for hosting services, as indicated in [Hugo documentation](https://gohugo.io/hosting-and-deployment/), but for this project, I choose to host on Netlify.
+
 ## Host Hugo site on Netlify
 
-Create an account on [Netlify](https://app.netlify.com/signup). I signed up via GitHub. 
+Before utilizing Netlify's services, you must create an account on [Netlify](https://app.netlify.com/signup). I signed up for a free version via GitHub.
 
 ![Netlify signup](static/assets/images/netlify-signup.png)
 
-Provide Netlify with authorization to access your version control system account.
-
-![Netlify permissions](static/assets/images/netlify-permissions.png)
+Setup is extremely straightforward and you can deploy your site in minutes.
 
 ## Create a new site with continuous deployment
 
-With a Netlify account that has access to your version control system, you can now synch up your project's repository for continuous development.
+Begin by providing Netlify with authorization to access your version control system account.
 
-Select `New site from Git` button
+![Netlify permissions](static/assets/images/netlify-permissions.png)
+
+You can now synch your project's repository for continuous development.
+
+Select `New site from Git` button.
 
 ![Netlify new site](static/assets/images/neflify-newsite.png)
 
-Follow Netlify prompts and provide Netlify permission to access individual repositories.
+Continue to follow Netlify prompts to provide Netlify with permission to access your individual repositories.
 
-Select the project repo. Select the branch, build command and deploy directory.
+Before building your site, Netlify needs 3 sets of instructions:
 
-## Configure Hugo version in Netlify
+1. Branch to deploy: `main`
+2. Build command: `hugo`
+3. Publish directory `public`
 
-set Hugo version in `netlify.toml` *and* `config.toml`
+Select `deploy site` button to build your site on Netlify.
 
-```zsh
-[context.production.environment]
-  HUGO_VERSION = "0.79.0"
-  ```
+After the terminal view of the build, you should receive a success message providing you will the URL to your website.
 
-## Automate Netlify build settings
+Congratulations, you are now hosting a static site on Netlify.
+
+![Netlify success](static/assets/images/netlify-success.png)
